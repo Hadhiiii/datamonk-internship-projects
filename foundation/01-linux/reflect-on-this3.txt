@@ -1,0 +1,11 @@
+1-Snap works the same on all systems and updates automatically.
+But it can be slower to start and use more space.
+2-rg is faster and skips files you don’t care about, like .git or node_modules.
+Perfect for searching in big projects.
+3-Use curl to send or receive data from APIs.
+
+Use wget to download files or websites.
+
+curl is for APIs. wget is for downloading stuff
+4-curl -s https://api.github.com/users/YOUR_USERNAME/repos | jq '[.[] | {name, language}]'
+
